@@ -14,4 +14,4 @@ let continents: string[] = [
 // Print the list of continents
 console.log("List of continents:");
 continents.forEach(continents => {
-    console.log(continents);
+    console.log(continents)});
