@@ -10,10 +10,10 @@ let Toyota = 'Corolla';
 
 // Test 1
 console.log("Is Suzuki equal to Corolla? I predict False.");
-console.log('Suzuki' == 'Corolla'); 
+console.log(Suzuki == 'Corolla'); 
 // Test 2
 console.log("Is Toyota equal to Mehran? I predict False.");
-console.log('Toyota' == 'Mehran'); 
+console.log(Toyota == 'Mehran'); 
 
 let x = 5;
 let y = 10;
