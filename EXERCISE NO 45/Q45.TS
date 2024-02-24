@@ -4,7 +4,7 @@
 //Print the Object that’s returned to make sure all the information was stored correctly.
 
 
-function createCar(manufacturer: string, model: string, ...options: { [key: string]: any }): object {
+function createCar(manufacturer: string, model: string, options: { [key: string]: any }): object {
     let car: { manufacturer: string, model: string, [key: string]: any } = {
         manufacturer: manufacturer,
         model: model
@@ -17,6 +17,7 @@ function createCar(manufacturer: string, model: string, ...options: { [key: stri
 
     return car;
 }
+
 
 // Call the function with required information and additional options
 let myCar = createCar("Toyota", "Camry", {color: "blue", year: 2023});
